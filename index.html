@@ -1,0 +1,35 @@
+<!--Tip Calculator HTML File 
+    author(Joshua Thomas)
+    date(10.01.2022)
+    version: 1.0
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Tip Calculator</title>
+</head>
+<body class="background">
+    <div class="container">
+        <h1 class="header-text">Tip Calculator</h1>
+        <input class="billBox" id="bill" placeholder="Enter Bill Amount">
+        <select id="percentage" class="options">
+            <option>-Percentage-</option>
+            <option value="30">30%</option>
+            <option value="15">15%</option>
+            <option value="10">10%</option>
+            <option value="5">5%</option>
+            <option value="0">0%</option>
+        </select>
+        <input class="people_Amount" id="amountOfPeople" placeholder="Amount Of People">
+        <button id="btn" class="calculate">Calculate</button>
+        <p id="output" class="output_value"></p>
+    </div>
+    
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+/*Tip Calculator CSS File 
+    author(Joshua Thomas)
+    date(10.01.2022)
+    version:1.0
+*/
+
+.background{
+    background: linear-gradient(to left, #2c3e50, #3498db)
+}
+
+.output_value{
+    text-align:center;
+    font-size:50px;
+}
+
+.header-text{
+    text-align:center;
+    font-size:40px;
+    background-color:#3498db;
+    border-radius:3px;
+}
+
+.container{
+    width:290px;
+    height:370px;
+    background-color:white;
+    margin:0px auto;
+    border-radius: 10px;
+    box-shadow: 5px 10px;
+}
+
+
+.options{
+    font-size:25px;
+    margin:10px 100px;
+}
+
+.calculate{
+    text-align:center;
+    font-size:50px;
+    background-color: lightblue;
+    margin: 220px -100px -100px 25px auto;
+    box-shadow:5px 5px;
+}
+
+.billBox, .people_Amount{
+    margin: -10px auto;
+    font-size:23px;
+    box-shadow:3px 3px;
+}
+
+/* Responsive */
+
+@media screen and (max-width:960px) {
+    
+}
